@@ -39,6 +39,7 @@ def build(root=ROOT):
         page = template
         for name, value in values.items():
             page = page.replace('__' + name + '__', value)
+        page = page.replace('</head>', '<meta name="campaign-revision" content="' + esc(record.get('page_revision', 'legacy')) + '"></head>')
         (folder / 'index.html').write_text(page, encoding='utf-8')
         cards.append('<a class="product-card" href="products/' + slug + '/"><img src="' + esc(record['image_file']) + '" alt="' + esc(p['name']) + '"><h2>' + esc(p['name']) + '</h2><p>' + esc(price) + '</p></a>')
         catalog.append({'slug': slug, 'name': p['name'], 'price': float(p['price']), 'currency': p['currency']})

@@ -13,7 +13,7 @@
       "status": "draft"
     },
     "campaign": {
-      "headline": "Lunettes de soleil Active 100 - Noir",
+      "headline": "Lunettes de soleil Active 100 - Noir à 24.0000 TND",
       "subheadline": "Une monture noire légère de 18 g avec des verres solaires de catégorie 3 en polycarbonate.",
       "benefits": [
         "Monture noire légère de 18 g",
@@ -21,41 +21,53 @@
         "Verres en polycarbonate"
       ],
       "cta": "Voir le produit",
-      "video_prompt": "Single 8-second cinematic product shot for the exact product shown in the initial image: black Active 100 sunglasses, preserving their shape, proportions, geometry, and colour exactly. Full-frame vertical composition, no letterboxing or black bars, and keep the complete glasses visible in hero shots. Charcoal studio background with subtle warm ivory accents. Soft key light with a narrow rim light and controlled lens reflections. Restrained camera movement and clean cuts. From 0 to 2 seconds, a three-quarter hero view with a soft lighting reveal. From 2 to 4 seconds, a close detail of the lenses and frame with a controlled moving reflection. From 4 to 6 seconds, a slight side angle showing the arm with a gentle camera glide. From 6 to 8 seconds, a full product hero view with a steady final frame. No humans, no text, no logos, no added accessories, no changes to product geometry or colour. Light instrumental electronic beat at low volume, no vocals, with subtle ambient studio audio.",
-      "ad_hook": "Légères et prêtes à vous accompagner"
+      "video_prompt": "Show the Lunettes de soleil Active 100 in black, featuring a lightweight black frame and category 3 polycarbonate lenses.",
+      "ad_hook": "Active 100 : monture noire de 18 g"
     },
     "brand_style": {
-      "version": "soleil-studio-v1",
-      "background": "charcoal studio with subtle warm ivory accents",
-      "lighting": "soft key light with a narrow rim light; controlled lens reflections",
-      "camera": "restrained movement, clean cuts, exact product geometry",
-      "music": "light instrumental electronic beat at low volume; no vocals",
-      "composition": "full-frame vertical composition, no letterboxing, keep complete glasses visible in hero shots"
+      "version": "soleil-studio-v2",
+      "background": "seamless warm light-grey cyclorama, subtle satin stone surface",
+      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating black frame; gentle controlled strip reflections on lenses, no blown highlights",
+      "camera": "three deliberate views of the same rigid product, slow movements and clean match cuts",
+      "music": "quiet minimal instrumental electronic groove, soft bass and restrained percussion, no vocals or speech",
+      "composition": "edge-to-edge vertical image; glasses centred with breathing space, entire frame and temples visible in opening and final hero; no letterbox bars"
     },
-    "shot_plan": [
-      {
-        "start": 0,
-        "end": 2,
-        "shot": "three-quarter hero, soft lighting reveal"
-      },
-      {
-        "start": 2,
-        "end": 4,
-        "shot": "lens and frame detail, controlled moving reflection"
-      },
-      {
-        "start": 4,
-        "end": 6,
-        "shot": "slight side angle showing the arm, gentle camera glide"
-      },
-      {
-        "start": 6,
-        "end": 8,
-        "shot": "full product hero, steady final frame"
-      }
-    ],
+    "shot_plan": {
+      "duration_seconds": 15,
+      "format": "720x1280",
+      "sections": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "hook and hero"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "role": "material and detail"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "role": "verified benefit"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "role": "exact price"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "role": "verified product URL and CTA"
+        }
+      ],
+      "renderer": "Remotion with PixiJS where prepared assets exist",
+      "social_publishing": false
+    },
     "review_status": "pending",
     "image_file": "assets/decathlon-tn-8738921/product.jpg",
-    "video_file": null
+    "video_file": "assets/decathlon-tn-8738921/ad.mp4",
+    "page_revision": "3f57e3f3fb2e4af8fb2ae8fd9a2ec649f3cd4f4177a908266c68d040ea6ca173"
   }
 ]
