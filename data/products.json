@@ -1,0 +1,61 @@
+[
+  {
+    "slug": "decathlon-tn-8738921",
+    "product": {
+      "source": "decathlon_tn",
+      "external_id": "8738921",
+      "name": "Lunettes de soleil Active 100 - Noir",
+      "description": "Monture noire légère de 18 g, avec verres solaires de catégorie 3 en polycarbonate. Étui non fourni.",
+      "price": "24.0000",
+      "currency": "TND",
+      "supplier_url": "https://www.decathlon.tn/p/339362-76796-lunettes-de-soleil-categorie-3-active-100.html",
+      "image_url": "https://contents.mediadecathlon.com/p2482107/fd6754093746145ca5db94e423575fa3/p2482107.jpg",
+      "status": "draft"
+    },
+    "campaign": {
+      "headline": "Lunettes de soleil Active 100 - Noir",
+      "subheadline": "Une monture noire légère de 18 g avec des verres solaires de catégorie 3 en polycarbonate.",
+      "benefits": [
+        "Monture noire légère de 18 g",
+        "Verres solaires de catégorie 3",
+        "Verres en polycarbonate"
+      ],
+      "cta": "Voir le produit",
+      "video_prompt": "Single 8-second cinematic product shot for the exact product shown in the initial image: black Active 100 sunglasses, preserving their shape, proportions, geometry, and colour exactly. Full-frame vertical composition, no letterboxing or black bars, and keep the complete glasses visible in hero shots. Charcoal studio background with subtle warm ivory accents. Soft key light with a narrow rim light and controlled lens reflections. Restrained camera movement and clean cuts. From 0 to 2 seconds, a three-quarter hero view with a soft lighting reveal. From 2 to 4 seconds, a close detail of the lenses and frame with a controlled moving reflection. From 4 to 6 seconds, a slight side angle showing the arm with a gentle camera glide. From 6 to 8 seconds, a full product hero view with a steady final frame. No humans, no text, no logos, no added accessories, no changes to product geometry or colour. Light instrumental electronic beat at low volume, no vocals, with subtle ambient studio audio.",
+      "ad_hook": "Légères et prêtes à vous accompagner"
+    },
+    "brand_style": {
+      "version": "soleil-studio-v1",
+      "background": "charcoal studio with subtle warm ivory accents",
+      "lighting": "soft key light with a narrow rim light; controlled lens reflections",
+      "camera": "restrained movement, clean cuts, exact product geometry",
+      "music": "light instrumental electronic beat at low volume; no vocals",
+      "composition": "full-frame vertical composition, no letterboxing, keep complete glasses visible in hero shots"
+    },
+    "shot_plan": [
+      {
+        "start": 0,
+        "end": 2,
+        "shot": "three-quarter hero, soft lighting reveal"
+      },
+      {
+        "start": 2,
+        "end": 4,
+        "shot": "lens and frame detail, controlled moving reflection"
+      },
+      {
+        "start": 4,
+        "end": 6,
+        "shot": "slight side angle showing the arm, gentle camera glide"
+      },
+      {
+        "start": 6,
+        "end": 8,
+        "shot": "full product hero, steady final frame"
+      }
+    ],
+    "review_status": "pending",
+    "image_file": "assets/decathlon-tn-8738921/product.jpg",
+    "video_file": null
+  }
+]
