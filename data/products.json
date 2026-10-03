@@ -1,5 +1,76 @@
 [
   {
+    "slug": "decathlon-tn-8559273",
+    "product": {
+      "source": "decathlon_tn",
+      "external_id": "8559273",
+      "name": "Lunettes de soleil sport Explore 100 - Noir",
+      "description": "Lunettes noires de randonnée pesant 29 g. Forme enveloppante et grands verres solaires de catégorie 3.",
+      "price": "39.0000",
+      "currency": "TND",
+      "supplier_url": "https://www.decathlon.tn/p/311973-75634-lunettes-de-soleil-sport-categorie-3-explore-100.html",
+      "image_url": "https://contents.mediadecathlon.com/p3051935/k%244448331ad3328c011e455642d9826922/lunettes-de-soleil-randonnee-mh500-adulte-categorie-3.jpg",
+      "status": "draft"
+    },
+    "campaign": {
+      "headline": "Lunettes de soleil sport Explore 100 - Noir",
+      "subheadline": "Des lunettes noires de randonnée à 39.0000 TND.",
+      "benefits": [
+        "Poids de 29 g",
+        "Forme enveloppante",
+        "Grands verres solaires de catégorie 3"
+      ],
+      "cta": "Voir le produit",
+      "video_prompt": "Black wraparound hiking sunglasses with large solar lenses.",
+      "ad_hook": "Noires, enveloppantes et conçues pour la randonnée"
+    },
+    "brand_style": {
+      "version": "soleil-studio-v2",
+      "background": "seamless warm light-grey cyclorama, subtle satin stone surface",
+      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating black frame; gentle controlled strip reflections on lenses, no blown highlights",
+      "camera": "three deliberate views of the same rigid product, slow movements and clean match cuts",
+      "music": "quiet minimal instrumental electronic groove, soft bass and restrained percussion, no vocals or speech",
+      "composition": "edge-to-edge vertical image; glasses centred with breathing space, entire frame and temples visible in opening and final hero; no letterbox bars"
+    },
+    "shot_plan": {
+      "duration_seconds": 15,
+      "format": "720x1280",
+      "sections": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "hook and hero"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "role": "material and detail"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "role": "verified benefit"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "role": "exact price"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "role": "verified product URL and CTA"
+        }
+      ],
+      "renderer": "Remotion with PixiJS where prepared assets exist",
+      "social_publishing": false
+    },
+    "review_status": "pending",
+    "image_file": "assets/decathlon-tn-8559273/product.jpg",
+    "video_file": null,
+    "page_revision": "b1c30916e5846faa876237cafceaaaed1d8a270024d15e56985a0f9114a2ec5a"
+  },
+  {
     "slug": "decathlon-tn-8738921",
     "product": {
       "source": "decathlon_tn",
