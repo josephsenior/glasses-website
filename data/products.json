@@ -69,5 +69,76 @@
     "image_file": "assets/decathlon-tn-8738921/product.jpg",
     "video_file": null,
     "page_revision": "2f78edf538a4c95b913aa4a83da6bbf247d8fcec4ad8857ac13eff216ab7f9cc"
+  },
+  {
+    "slug": "decathlon-tn-8940649",
+    "product": {
+      "source": "decathlon_tn",
+      "external_id": "8940649",
+      "name": "Lunettes de soleil Active 500 SQR - Noir",
+      "description": "Modèle noir rectangulaire avec verres de catégorie 3 pour les journées ensoleillées. Livré avec un étui protecteur.",
+      "price": "49.0000",
+      "currency": "TND",
+      "supplier_url": "https://www.decathlon.tn/p/365032-134336-lunettes-de-soleil-rectangulaires-categorie-3-active-500-sqr.html",
+      "image_url": "https://contents.mediadecathlon.com/p3051875/d872989537fc1a5a54f57d19ba0f1a97/p3051875.jpg",
+      "status": "draft"
+    },
+    "campaign": {
+      "headline": "Lunettes de soleil Active 500 SQR - Noir",
+      "subheadline": "Un modèle rectangulaire noir avec des verres de catégorie 3, proposé à 49.0000 TND.",
+      "benefits": [
+        "Monture noire rectangulaire",
+        "Verres de catégorie 3",
+        "Étui protecteur inclus"
+      ],
+      "cta": "Voir le produit",
+      "video_prompt": "A black rectangular pair of sunglasses with category 3 lenses and a protective case.",
+      "ad_hook": "Active 500 SQR : modèle noir rectangulaire"
+    },
+    "brand_style": {
+      "version": "soleil-studio-v2",
+      "background": "seamless warm light-grey cyclorama, subtle satin stone surface",
+      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating black frame; gentle controlled strip reflections on lenses, no blown highlights",
+      "camera": "three deliberate views of the same rigid product, slow movements and clean match cuts",
+      "music": "quiet minimal instrumental electronic groove, soft bass and restrained percussion, no vocals or speech",
+      "composition": "edge-to-edge vertical image; glasses centred with breathing space, entire frame and temples visible in opening and final hero; no letterbox bars"
+    },
+    "shot_plan": {
+      "duration_seconds": 15,
+      "format": "720x1280",
+      "sections": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "hook and hero"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "role": "material and detail"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "role": "verified benefit"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "role": "exact price"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "role": "verified product URL and CTA"
+        }
+      ],
+      "renderer": "Remotion with PixiJS where prepared assets exist",
+      "social_publishing": false
+    },
+    "review_status": "pending",
+    "image_file": "assets/decathlon-tn-8940649/product.jpg",
+    "video_file": null,
+    "page_revision": "e4558678129a6cbd5c2dfd656689cc70b0d93b613f79d92befc65294b87e93f6"
   }
 ]
