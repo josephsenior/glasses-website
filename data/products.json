@@ -140,5 +140,76 @@
     "image_file": "assets/decathlon-tn-8940649/product.jpg",
     "video_file": null,
     "page_revision": "e4558678129a6cbd5c2dfd656689cc70b0d93b613f79d92befc65294b87e93f6"
+  },
+  {
+    "slug": "decathlon-tn-8942036",
+    "product": {
+      "source": "decathlon_tn",
+      "external_id": "8942036",
+      "name": "Lunettes de soleil Active 500 RND - Gris",
+      "description": "Lunettes grises à monture ronde, équipées de verres solaires de catégorie 3. Un étui accompagne ce modèle.",
+      "price": "69.0000",
+      "currency": "TND",
+      "supplier_url": "https://www.decathlon.tn/p/365275-134907-lunettes-de-soleil-rondes-categorie-3-active-500-rnd.html",
+      "image_url": "https://contents.mediadecathlon.com/p3051823/e28066bee9f288664046d93c63469000/p3051823.jpg",
+      "status": "draft"
+    },
+    "campaign": {
+      "headline": "Lunettes de soleil Active 500 RND - Gris",
+      "subheadline": "Ce modèle est proposé au prix de 69.0000 TND.",
+      "benefits": [
+        "Monture ronde grise",
+        "Verres solaires de catégorie 3",
+        "Étui inclus"
+      ],
+      "cta": "Voir le produit",
+      "video_prompt": "Gray sunglasses with a round frame and category 3 sun lenses.",
+      "ad_hook": "Monture ronde grise"
+    },
+    "brand_style": {
+      "version": "soleil-studio-v2",
+      "background": "seamless warm light-grey cyclorama, subtle satin stone surface",
+      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating black frame; gentle controlled strip reflections on lenses, no blown highlights",
+      "camera": "three deliberate views of the same rigid product, slow movements and clean match cuts",
+      "music": "quiet minimal instrumental electronic groove, soft bass and restrained percussion, no vocals or speech",
+      "composition": "edge-to-edge vertical image; glasses centred with breathing space, entire frame and temples visible in opening and final hero; no letterbox bars"
+    },
+    "shot_plan": {
+      "duration_seconds": 15,
+      "format": "720x1280",
+      "sections": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "hook and hero"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "role": "material and detail"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "role": "verified benefit"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "role": "exact price"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "role": "verified product URL and CTA"
+        }
+      ],
+      "renderer": "Remotion with PixiJS where prepared assets exist",
+      "social_publishing": false
+    },
+    "review_status": "pending",
+    "image_file": "assets/decathlon-tn-8942036/product.jpg",
+    "video_file": null,
+    "page_revision": "440cfb23a61f3701f135af6ee271afe772c8ebd9908996c1a3031e24ac557684"
   }
 ]
