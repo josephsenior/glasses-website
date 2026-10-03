@@ -14,15 +14,15 @@
     },
     "campaign": {
       "headline": "Lunettes de soleil Active 100 - Noir",
-      "subheadline": "Une monture noire légère de 18 g au prix de 24.0000 TND.",
+      "subheadline": "Monture noire légère de 18 g avec verres solaires de catégorie 3 en polycarbonate, au prix de 24.0000 TND.",
       "benefits": [
         "Monture noire légère de 18 g",
         "Verres solaires de catégorie 3",
         "Verres en polycarbonate"
       ],
       "cta": "Voir le produit",
-      "video_prompt": "A pair of sunglasses with a black lightweight frame and category 3 polycarbonate lenses.",
-      "ad_hook": "Active 100 noire : 24.0000 TND"
+      "video_prompt": "Black sunglasses with a lightweight 18 g frame and category 3 polycarbonate lenses.",
+      "ad_hook": "Active 100 : monture noire de 18 g"
     },
     "brand_style": {
       "version": "soleil-studio-v2",
@@ -68,6 +68,6 @@
     "review_status": "pending",
     "image_file": "assets/decathlon-tn-8738921/product.jpg",
     "video_file": null,
-    "page_revision": "0af4358d03d5a6500558882102d56e30f9769795209f42b454d62e2921db5585"
+    "page_revision": "2f78edf538a4c95b913aa4a83da6bbf247d8fcec4ad8857ac13eff216ab7f9cc"
   }
 ]
