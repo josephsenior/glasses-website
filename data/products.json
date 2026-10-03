@@ -21,8 +21,8 @@
         "Verres en polycarbonate"
       ],
       "cta": "Voir le produit",
-      "video_prompt": "Black sunglasses with a lightweight black frame and category 3 polycarbonate lenses.",
-      "ad_hook": "Active 100 noire, 24.0000 TND"
+      "video_prompt": "A pair of sunglasses with a black lightweight frame and category 3 polycarbonate lenses.",
+      "ad_hook": "Active 100 noire : 24.0000 TND"
     },
     "brand_style": {
       "version": "soleil-studio-v2",
@@ -68,6 +68,6 @@
     "review_status": "pending",
     "image_file": "assets/decathlon-tn-8738921/product.jpg",
     "video_file": null,
-    "page_revision": "8112bc8962d8544427531328e5ff06f8f1147945fc31f589017929754339818d"
+    "page_revision": "0af4358d03d5a6500558882102d56e30f9769795209f42b454d62e2921db5585"
   }
 ]
