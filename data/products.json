@@ -119,6 +119,125 @@
     "page_revision": "80bb097c12b30c6a3b3f6b68cf1475bf3957e0a13803a1bf7dcb1f873845276f"
   },
   {
+    "slug": "aliexpress-1005007865993074",
+    "product": {
+      "source": "aliexpress",
+      "external_id": "1005007865993074",
+      "name": "Fashion Sports Sunglasses Polarized UV Protection Personalized Glasses Round Frame Metal Men's And Women's UV400 Eyewear",
+      "description": "Fashion Sports Sunglasses Polarized UV Protection Personalized Glasses Round Frame Metal Men's And Women's UV400 Eyewear",
+      "category": "sunglasses",
+      "attributes": {},
+      "price": 8.9,
+      "currency": "TND",
+      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/S46ccc84b1095499da34addf029ba816de.png_480x480.png_.avif",
+      "supplier_url": "https://www.aliexpress.com/item/1005007865993074.html",
+      "status": "publish",
+      "images": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S46ccc84b1095499da34addf029ba816de.png_480x480.png_.avif",
+          "role": "hero",
+          "origin": "supplier"
+        }
+      ],
+      "variants": [],
+      "facts": {
+        "brand": "",
+        "model": "",
+        "attributes": {},
+        "evidence_source": "supplier_listing",
+        "source_description": ""
+      },
+      "research": {
+        "relevance": 0.7,
+        "market_score": 85,
+        "ranking_score": 78.3,
+        "ai_suggestions": {
+          "name": "Fashion Sports Sunglasses Polarized UV Protection Personalized Glasses Round Frame Metal Men's And Women's UV400 Eyewear",
+          "features": "",
+          "description": ""
+        },
+        "market_score_kind": "heuristic"
+      },
+      "pricing": {
+        "currency": "TND",
+        "selling_price": 8.9,
+        "pricing_policy": "configured_markup_and_import_estimate",
+        "supplier_price": 3.26,
+        "conversion_date": "Sun, 04 Oct 2026 00:02:32 +0000",
+        "conversion_source": "api",
+        "supplier_currency": "TND"
+      },
+      "quality": {
+        "reasons": [],
+        "eligible": true,
+        "image_count": 1,
+        "stock_verified": false,
+        "geometry_source": "product_photos",
+        "description_available": false
+      },
+      "schema_version": 2,
+      "supplier_description": "Fashion Sports Sunglasses Polarized UV Protection Personalized Glasses Round Frame Metal Men's And Women's UV400 Eyewear",
+      "campaign_signature": "{\"version\":2,\"id\":\"1005007865993074\",\"source\":\"aliexpress\",\"name\":\"Fashion Sports Sunglasses Polarized UV Protection Personalized Glasses Round Frame Metal Men's And Women's UV400 Eyewear\",\"description\":\"Fashion Sports Sunglasses Polarized UV Protection Personalized Glasses Round Frame Metal Men's And Women's UV400 Eyewear\",\"category\":\"sunglasses\",\"attributes\":{},\"images\":[{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S46ccc84b1095499da34addf029ba816de.png_480x480.png_.avif\",\"role\":\"hero\"}],\"price\":8.9,\"currency\":\"TND\",\"generate_video\":false,\"publish_social\":false,\"platforms\":[\"facebook\",\"instagram\",\"tiktok\",\"youtube\"],\"creative_version\":\"soleil-editorial-v5-15\"}"
+    },
+    "campaign": {
+      "headline": "Fashion Sports Sunglasses Polarized UV Protection Personalized Glasses Round Frame Metal Men's And Women's UV400 Eyewear",
+      "subheadline": "Modèle disponible au prix de 8.9 TND.",
+      "cta": "Voir le produit",
+      "video_prompt": "A pair of round-frame metal sunglasses rotating slowly under neutral studio lighting against a clean white background.",
+      "ad_hook": "8.9 TND",
+      "benefits": [
+        "Monture en métal de forme ronde",
+        "Modèle pour hommes et femmes",
+        "Design pour usage quotidien ou sportif"
+      ]
+    },
+    "brand_style": {
+      "version": "soleil-studio-v2",
+      "background": "seamless warm light-grey cyclorama, subtle satin stone surface",
+      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating black frame; gentle controlled strip reflections on lenses, no blown highlights",
+      "camera": "three deliberate views of the same rigid product, slow movements and clean match cuts",
+      "music": "quiet minimal instrumental electronic groove, soft bass and restrained percussion, no vocals or speech",
+      "composition": "edge-to-edge vertical image; glasses centred with breathing space, entire frame and temples visible in opening and final hero; no letterbox bars"
+    },
+    "shot_plan": {
+      "duration_seconds": 15,
+      "format": "720x1280",
+      "sections": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "hook and hero"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "role": "material and detail"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "role": "verified benefit"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "role": "exact price"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "role": "verified product URL and CTA"
+        }
+      ],
+      "renderer": "Remotion with PixiJS where prepared assets exist",
+      "social_publishing": false
+    },
+    "review_status": "pending",
+    "image_file": "assets/aliexpress-1005007865993074/product.jpg",
+    "video_file": null,
+    "page_revision": "80fd033bbf7f4c31f5d83065aecce6b44cdb821f54dad12dd1d4a8f06f54ef63"
+  },
+  {
     "slug": "decathlon-tn-8559273",
     "product": {
       "source": "decathlon_tn",
