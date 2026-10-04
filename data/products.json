@@ -238,6 +238,125 @@
     "page_revision": "80fd033bbf7f4c31f5d83065aecce6b44cdb821f54dad12dd1d4a8f06f54ef63"
   },
   {
+    "slug": "aliexpress-1005008248022736",
+    "product": {
+      "source": "aliexpress",
+      "external_id": "1005008248022736",
+      "name": "Fashionable Large Frame Retro Sunglasses Double Bridge Rice Nail Design Anti-UV Sun Protection Eyewear for Men Women",
+      "description": "Fashionable Large Frame Retro Sunglasses Double Bridge Rice Nail Design Anti-UV Sun Protection Eyewear for Men Women",
+      "category": "sunglasses",
+      "attributes": {},
+      "price": 11.9,
+      "currency": "TND",
+      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/S8d9621f9b5294a60a0007ca2864f2f925.jpg_480x480q75.jpg_.avif",
+      "supplier_url": "https://www.aliexpress.com/item/1005008248022736.html",
+      "status": "publish",
+      "images": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/S8d9621f9b5294a60a0007ca2864f2f925.jpg_480x480q75.jpg_.avif",
+          "role": "hero",
+          "origin": "supplier"
+        }
+      ],
+      "variants": [],
+      "facts": {
+        "brand": "",
+        "model": "",
+        "attributes": {},
+        "evidence_source": "supplier_listing",
+        "source_description": ""
+      },
+      "research": {
+        "relevance": 0.95,
+        "market_score": 89,
+        "ranking_score": 93.4,
+        "ai_suggestions": {
+          "name": "Lunettes de soleil rétro à large monture",
+          "features": "Grande monture, double pont, détails clous de riz, protection anti-UV déclarée",
+          "description": "Lunettes de soleil rétro à large monture et double pont."
+        },
+        "market_score_kind": "heuristic"
+      },
+      "pricing": {
+        "currency": "TND",
+        "selling_price": 11.9,
+        "pricing_policy": "configured_markup_and_import_estimate",
+        "supplier_price": 5.6,
+        "conversion_date": "Sun, 04 Oct 2026 00:02:32 +0000",
+        "conversion_source": "api",
+        "supplier_currency": "TND"
+      },
+      "quality": {
+        "reasons": [],
+        "eligible": true,
+        "image_count": 1,
+        "stock_verified": false,
+        "geometry_source": "product_photos",
+        "description_available": false
+      },
+      "schema_version": 2,
+      "supplier_description": "Fashionable Large Frame Retro Sunglasses Double Bridge Rice Nail Design Anti-UV Sun Protection Eyewear for Men Women",
+      "campaign_signature": "{\"version\":2,\"id\":\"1005008248022736\",\"source\":\"aliexpress\",\"name\":\"Fashionable Large Frame Retro Sunglasses Double Bridge Rice Nail Design Anti-UV Sun Protection Eyewear for Men Women\",\"description\":\"Fashionable Large Frame Retro Sunglasses Double Bridge Rice Nail Design Anti-UV Sun Protection Eyewear for Men Women\",\"category\":\"sunglasses\",\"attributes\":{},\"images\":[{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/S8d9621f9b5294a60a0007ca2864f2f925.jpg_480x480q75.jpg_.avif\",\"role\":\"hero\"}],\"price\":11.9,\"currency\":\"TND\",\"generate_video\":false,\"publish_social\":false,\"platforms\":[\"facebook\",\"instagram\",\"tiktok\",\"youtube\"],\"creative_version\":\"soleil-editorial-v5-15\"}"
+    },
+    "campaign": {
+      "headline": "Fashionable Large Frame Retro Sunglasses Double Bridge Rice Nail Design Anti-UV Sun Protection Eyewear for Men Women",
+      "subheadline": "Lunettes de soleil rétro à monture large disponibles à 11.9 TND.",
+      "cta": "Voir le produit",
+      "video_prompt": "A pair of large frame retro sunglasses with a double bridge and rice nail design detailing, displayed on a clean neutral surface.",
+      "ad_hook": "Style rétro à 11.9 TND",
+      "benefits": [
+        "Design à double pont",
+        "Détails rice nail",
+        "Monture large pour hommes et femmes"
+      ]
+    },
+    "brand_style": {
+      "version": "soleil-studio-v2",
+      "background": "seamless warm light-grey cyclorama, subtle satin stone surface",
+      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating black frame; gentle controlled strip reflections on lenses, no blown highlights",
+      "camera": "three deliberate views of the same rigid product, slow movements and clean match cuts",
+      "music": "quiet minimal instrumental electronic groove, soft bass and restrained percussion, no vocals or speech",
+      "composition": "edge-to-edge vertical image; glasses centred with breathing space, entire frame and temples visible in opening and final hero; no letterbox bars"
+    },
+    "shot_plan": {
+      "duration_seconds": 15,
+      "format": "720x1280",
+      "sections": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "hook and hero"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "role": "material and detail"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "role": "verified benefit"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "role": "exact price"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "role": "verified product URL and CTA"
+        }
+      ],
+      "renderer": "Remotion with PixiJS where prepared assets exist",
+      "social_publishing": false
+    },
+    "review_status": "pending",
+    "image_file": "assets/aliexpress-1005008248022736/product.jpg",
+    "video_file": null,
+    "page_revision": "de4184fa672abe7a347ed5301c451bd9e1bff02c38600c3b9b04a0af013deed6"
+  },
+  {
     "slug": "decathlon-tn-8559273",
     "product": {
       "source": "decathlon_tn",
