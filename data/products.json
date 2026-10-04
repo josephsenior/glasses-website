@@ -81,19 +81,19 @@
       "currency": "TND",
       "supplier_url": "https://www.decathlon.tn/p/339362-76796-lunettes-de-soleil-categorie-3-active-100.html",
       "image_url": "https://contents.mediadecathlon.com/p2482107/fd6754093746145ca5db94e423575fa3/p2482107.jpg",
-      "status": "draft"
+      "status": "publish"
     },
     "campaign": {
       "headline": "Lunettes de soleil Active 100 - Noir",
-      "subheadline": "Une monture noire légère de 18 g avec des verres solaires de catégorie 3 en polycarbonate.",
-      "benefits": [
-        "Monture noire légère de 18 g",
-        "Verres solaires de catégorie 3",
-        "Prix : 24.0000 TND"
-      ],
+      "subheadline": "Découvrez ce modèle à 24.0000 TND doté d'une monture noire et de verres solaires de catégorie 3.",
       "cta": "Voir le produit",
-      "video_prompt": "Black sunglasses with a simple black frame and dark lenses on a neutral background.",
-      "ad_hook": "Active 100 - Noir à 24.0000 TND"
+      "video_prompt": "A close-up shot of black sunglasses with polycarbonate lenses on a neutral surface.",
+      "ad_hook": "Monture noire légère de 18 g",
+      "benefits": [
+        "Poids léger de 18 g",
+        "Verres solaires de catégorie 3",
+        "Verres en polycarbonate"
+      ]
     },
     "brand_style": {
       "version": "soleil-studio-v2",
@@ -134,12 +134,12 @@
         }
       ],
       "renderer": "Remotion with PixiJS where prepared assets exist",
-      "social_publishing": true
+      "social_publishing": false
     },
     "review_status": "pending",
     "image_file": "assets/decathlon-tn-8738921/product.jpg",
     "video_file": null,
-    "page_revision": "f96050c369b1948d9fa0d05da542c81f2893138a8f034dcc21b2e05356235042"
+    "page_revision": "5f6a7e4174898c239d2b699840deb243fc0d7a49b8c4ddf544cfe38894f8e3be"
   },
   {
     "slug": "decathlon-tn-8940649",
