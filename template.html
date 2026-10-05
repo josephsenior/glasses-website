@@ -1,24 +1,22 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>__NAME__ · Collection Soleil</title>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>__NAME__ · Sélection</title><meta name="description" content="__SUBHEAD__">
   <link rel="stylesheet" href="../../style.css">
-  <script src="../../cart.js" defer></script>
 </head>
-<body data-base="../../">
-  <header><a href="../../">COLLECTION SOLEIL</a><button data-cart-open>Panier <span data-cart-count>0</span></button></header>
+<body>
+  <header class="site-header"><a class="brand" href="../../" aria-label="Sélection, accueil"><span class="brand-mark" aria-hidden="true">s.</span>Sélection</a><nav aria-label="Navigation principale"><a href="../../#catalogue">Le catalogue</a><a href="#details">Les détails</a></nav><a class="nav-action" href="../../#catalogue">Explorer ↗</a></header>
   <main>
-    <a class="back" href="../../">← Toute la collection</a>
-    <section class="hero">
-      <div class="visual"><img src="__IMAGE__" alt="__NAME__"></div>
-      <div><p class="eyebrow">Les essentiels soleil</p><h1>__HEADLINE__</h1><p>__SUBHEAD__</p><h2>__NAME__</h2><p class="price">__PRICE__</p><button class="primary" data-add="__SLUG__">Ajouter au panier</button></div>
+    <a class="back" href="../../#catalogue">← Retour au catalogue</a>
+    <section class="hero product-hero">
+      <div class="visual"><span class="visual-label">__CATEGORY__</span><img src="__IMAGE__" alt="__NAME__"><span class="image-note">Le produit, dans les détails</span></div>
+      <div class="product-copy"><p class="eyebrow">__CATEGORY__ · La sélection</p><h1>__HEADLINE__</h1><p class="lead">__SUBHEAD__</p><p class="product-name">__NAME__</p><p class="price">__PRICE__</p><a class="primary" href="__SUPPLIER_URL__" target="_blank" rel="noopener noreferrer">Consulter le fournisseur <span aria-hidden="true">↗</span></a><p class="supplier-note">Disponibilité et conditions de vente à vérifier sur la fiche du fournisseur.</p><a class="detail-link" href="#details">Découvrir les caractéristiques ↓</a></div>
     </section>
-    <section class="details"><h2>Dans les détails</h2><p>__DESCRIPTION__</p><ul>__BENEFITS__</ul></section>
-    <section class="film">__VIDEO__</section>
+    <section class="details" id="details"><div><p class="eyebrow">La fiche produit</p><h2>Dans les détails.</h2></div><div class="detail-content"><h3>__NAME__</h3><p>__DESCRIPTION__</p><ul class="benefits">__BENEFITS__</ul></div></section>
+    __VIDEO__
+    <section class="more-products"><div><p class="eyebrow">Il reste à découvrir</p><h2>Explorez toute la sélection.</h2></div><a class="primary secondary" href="../../#catalogue">Voir le catalogue ↗</a></section>
   </main>
-  <dialog id="cart"><h2>Votre sélection</h2><div id="cart-lines"></div><p id="cart-total"></p><p>Les commandes ne sont pas encore activées.</p><button data-cart-close>Fermer</button></dialog>
-  <footer>Catalogue de démonstration · Commandes et paiement à configurer.</footer>
+  <footer class="site-footer"><a class="brand" href="../../"><span class="brand-mark" aria-hidden="true">s.</span>Sélection</a><p>Un catalogue de produits à explorer.<br>Les informations disponibles proviennent des fiches produits.</p><a href="../../#catalogue">Tous les produits ↗</a></footer>
 </body>
 </html>

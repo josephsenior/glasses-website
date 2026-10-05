@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sélection — Des produits à découvrir</title>
+  <meta name="description" content="Explorez notre sélection de produits. Photos, prix et caractéristiques réunis sur une fiche claire pour chaque produit.">
+  <link rel="stylesheet" href="style.css"><script src="catalog.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./" aria-label="Sélection, accueil"><span class="brand-mark" aria-hidden="true">s.</span>Sélection</a><nav aria-label="Navigation principale"><a href="#catalogue">Le catalogue</a><a href="#approche">Notre approche</a></nav><a class="nav-action" href="#catalogue">Explorer <span aria-hidden="true">↗</span></a></header>
+  <main>
+    <section class="catalog-hero">
+      <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> Une sélection, plusieurs univers</p><h1>Des découvertes.<br><em>Pour le quotidien.</em></h1><p class="lead">Un seul endroit pour explorer des produits, regarder les détails et trouver ce qui vous correspond.</p><a class="primary" href="#catalogue">Découvrir le catalogue <span aria-hidden="true">↗</span></a><div class="hero-footnote"><strong>__COUNT__ produits</strong><span>Des fiches claires. Des détails concrets.</span></div></div>
+      <div class="hero-display"><div class="display-top"><span>Le produit au premier plan</span><span aria-hidden="true">✳</span></div>__FEATURED__<div class="display-bottom"><span>Photos · Caractéristiques · Prix</span><span aria-hidden="true">01 / SÉLECTION</span></div></div>
+    </section>
+    <section class="catalog-section" id="catalogue" aria-labelledby="catalog-title">
+      <div class="section-heading"><div><p class="eyebrow">Explorez à votre rythme</p><h2 id="catalog-title">La sélection du moment<span class="count-badge">__COUNT__</span></h2></div><p>Chaque produit a sa propre fiche.</p></div>
+      <div class="catalog-controls"><div class="category-filters" role="group" aria-label="Filtrer par catégorie"><button class="filter-chip active" type="button" data-category="all" aria-pressed="true">Tous les produits</button>__FILTERS__</div><label class="search-field"><span aria-hidden="true">⌕</span><span class="sr-only">Rechercher un produit</span><input id="product-search" type="search" placeholder="Rechercher un produit…" autocomplete="off"></label></div>
+      <p id="result-count" class="result-count" aria-live="polite">__COUNT__ produits à découvrir</p>
+      <div class="catalog" id="product-grid">__CARDS__</div>
+      <div id="empty-results" class="empty-state" hidden><h3>Aucun produit ne correspond.</h3><p>Essayez un autre mot ou explorez toute la sélection.</p><button id="reset-filters" class="primary" type="button">Afficher tous les produits</button></div>
+    </section>
+    <section class="approach" id="approche"><div><p class="eyebrow">Simplement, le produit.</p><h2>Moins de bruit.<br><em>Plus de détails.</em></h2></div><div class="approach-points"><article><span>01</span><h3>Voir le produit</h3><p>Ses images pour regarder les détails à votre rythme.</p></article><article><span>02</span><h3>Comprendre la fiche</h3><p>Son prix et les caractéristiques disponibles, au même endroit.</p></article><article><span>03</span><h3>Aller plus loin</h3><p>Un lien vers le fournisseur pour consulter les conditions de vente.</p></article></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="./"><span class="brand-mark" aria-hidden="true">s.</span>Sélection</a><p>Un catalogue de produits à explorer.<br>Disponibilité et conditions de vente à consulter auprès du fournisseur.</p><a href="#catalogue">Retour au catalogue ↑</a></footer>
+</body>
+</html>

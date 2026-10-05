@@ -1,11 +1,21 @@
-"""Build the shared sunglasses store from campaign records. No AI calls."""
+"""Build the shared product store from campaign records. No AI calls."""
 import html
 import json
 from pathlib import Path
 import re
 import shutil
+from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent
+
+
+def category_label(product):
+    category = str(product.get('category') or 'other').strip().lower()
+    labels = {'sunglasses': 'Lunettes de soleil', 'audio': 'Audio', 'kitchen': 'Cuisine',
+              'home': 'Maison', 'electronics': 'Électronique', 'beauty': 'Beauté',
+              'sport': 'Sport', 'fashion': 'Mode', 'accessories': 'Accessoires',
+              'other': 'Non classé'}
+    return category, labels.get(category, category.replace('_', ' ').replace('-', ' ').capitalize())
 
 
 def build(root=ROOT):
@@ -22,32 +32,46 @@ def build(root=ROOT):
             raise ValueError('Invalid price or currency')
     target = root / 'dist'
     target.mkdir(exist_ok=True)
-    for filename in ('style.css', 'cart.js'):
+    for filename in ('style.css', 'cart.js', 'catalog.js'):
         shutil.copyfile(root / filename, target / filename)
     template = (root / 'template.html').read_text(encoding='utf-8')
     cards = []
     esc = lambda x: html.escape(str(x), quote=True)
     catalog = []
+    categories = {}
+    featured = ''
     for record in records:
         p, c, slug = record['product'], record['campaign'], record['slug']
         folder = target / 'products' / slug
         folder.mkdir(parents=True, exist_ok=True)
         image = '../../' + record['image_file']
         price = f"{float(p['price']):.3f} {p['currency']}"
-        video = '<video controls playsinline preload="metadata" src="../../' + esc(record['video_file']) + '"></video>' if record.get('video_file') else ''
-        values = {'NAME': esc(p['name']), 'HEADLINE': esc(c['headline']), 'DESCRIPTION': esc(p['description']), 'SUBHEAD': esc(c['subheadline']), 'PRICE': esc(price), 'SLUG': esc(slug), 'IMAGE': esc(image), 'VIDEO': video, 'BENEFITS': ''.join('<li>' + esc(b) + '</li>' for b in c['benefits'])}
+        category, label = category_label(p)
+        categories[category] = label
+        supplier_url = p.get('supplier_url', '')
+        parsed_supplier = urlparse(supplier_url)
+        if parsed_supplier.scheme != 'https' or not parsed_supplier.netloc:
+            raise ValueError('Invalid supplier URL')
+        # Ads remain standalone; the product page has no video dependency.
+        values = {'NAME': esc(p['name']), 'HEADLINE': esc(c['headline']), 'DESCRIPTION': esc(p['description']), 'SUBHEAD': esc(c['subheadline']), 'PRICE': esc(price), 'SLUG': esc(slug), 'IMAGE': esc(image), 'VIDEO': '', 'CATEGORY': esc(label), 'SUPPLIER_URL': esc(supplier_url), 'BENEFITS': ''.join('<li>' + esc(b) + '</li>' for b in c['benefits'])}
         page = template
         for name, value in values.items():
             page = page.replace('__' + name + '__', value)
         page = page.replace('</head>', '<meta name="campaign-revision" content="' + esc(record.get('page_revision', 'legacy')) + '"></head>')
         (folder / 'index.html').write_text(page, encoding='utf-8')
-        cards.append('<a class="product-card" href="products/' + slug + '/"><img src="' + esc(record['image_file']) + '" alt="' + esc(p['name']) + '"><h2>' + esc(p['name']) + '</h2><p>' + esc(price) + '</p></a>')
-        catalog.append({'slug': slug, 'name': p['name'], 'price': float(p['price']), 'currency': p['currency']})
+        cards.append('<a class="product-card" href="products/' + slug + '/" data-product-category="' + esc(category) + '" data-search="' + esc(p['name'] + ' ' + label + ' ' + p['description']) + '"><div class="card-image"><span class="card-category">' + esc(label) + '</span><img loading="lazy" src="' + esc(record['image_file']) + '" alt="' + esc(p['name']) + '"></div><div class="card-body"><h3>' + esc(p['name']) + '</h3><p class="card-description">' + esc(p['description']) + '</p><div class="card-bottom"><span>' + esc(price) + '</span><span class="card-arrow" aria-hidden="true">↗</span></div></div></a>')
+        catalog.append({'slug': slug, 'name': p['name'], 'price': float(p['price']), 'currency': p['currency'], 'category': category})
+        if not featured:
+            featured = '<a class="featured-product" href="products/' + slug + '/"><img src="' + esc(record['image_file']) + '" alt="' + esc(p['name']) + '"><span>' + esc(p['name']) + '</span></a>'
     assets = root / 'assets'
     if assets.exists():
         shutil.copytree(assets, target / 'assets', dirs_exist_ok=True)
     (target / 'catalog.json').write_text(json.dumps(catalog, ensure_ascii=False), encoding='utf-8')
-    homepage = '<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Collection Soleil</title><link rel="stylesheet" href="style.css"><script src="cart.js" defer></script></head><body data-base="./"><header><a href="./">COLLECTION SOLEIL</a><button data-cart-open>Panier <span data-cart-count>0</span></button></header><main><p class="eyebrow">La collection</p><h1>Un regard sur le soleil.</h1><p>Découvrez notre sélection de lunettes de soleil.</p><section class="catalog">' + ''.join(cards) + '</section></main>' + cart_markup() + '<footer>Catalogue de démonstration · Commandes et paiement à configurer.</footer></body></html>'
+    homepage = (root / 'home.html').read_text(encoding='utf-8')
+    filters = ''.join('<button class="filter-chip" type="button" data-category="' + esc(key) + '" aria-pressed="false">' + esc(label) + '</button>' for key, label in sorted(categories.items(), key=lambda kv: kv[1]))
+    values = {'COUNT': str(len(records)), 'CARDS': ''.join(cards), 'FEATURED': featured or '<div class="featured-product"><span>La sélection arrive bientôt.</span></div>', 'FILTERS': filters}
+    for name, value in values.items():
+        homepage = homepage.replace('__' + name + '__', value)
     (target / 'index.html').write_text(homepage, encoding='utf-8')
     for record in records:
         for field in ('image_file', 'video_file'):
