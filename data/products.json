@@ -438,27 +438,27 @@
       "currency": "TND",
       "supplier_url": "https://www.decathlon.tn/p/339362-76796-lunettes-de-soleil-categorie-3-active-100.html",
       "image_url": "https://contents.mediadecathlon.com/p2482107/fd6754093746145ca5db94e423575fa3/p2482107.jpg",
-      "status": "publish"
+      "status": "draft"
     },
     "campaign": {
       "headline": "Lunettes de soleil Active 100 - Noir",
-      "subheadline": "Découvrez ces lunettes à monture noire au prix de 24.0000 TND.",
+      "subheadline": "Découvrez le modèle Lunettes de soleil Active 100 - Noir proposé au prix de 24.0000 TND.",
       "cta": "Voir le produit",
-      "video_prompt": "A pair of black sunglasses with polycarbonate lenses on a neutral surface.",
-      "ad_hook": "Monture noire de 18 g",
+      "video_prompt": "Black sunglasses with polycarbonate category 3 lenses, resting on a plain neutral surface without a case.",
+      "ad_hook": "Monture noire de 18 g à 24.0000 TND",
       "benefits": [
-        "Monture noire légère de 18 g",
+        "Monture noire légère d'un poids de 18 g",
         "Verres solaires de catégorie 3 en polycarbonate",
-        "Prix : 24.0000 TND"
+        "Article disponible au tarif de 24.0000 TND"
       ]
     },
     "brand_style": {
-      "version": "soleil-studio-v2",
+      "version": "product-studio-v3",
       "background": "seamless warm light-grey cyclorama, subtle satin stone surface",
-      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating black frame; gentle controlled strip reflections on lenses, no blown highlights",
+      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating the product; restrained reflections appropriate to the supplied materials, no blown highlights",
       "camera": "three deliberate views of the same rigid product, slow movements and clean match cuts",
       "music": "quiet minimal instrumental electronic groove, soft bass and restrained percussion, no vocals or speech",
-      "composition": "edge-to-edge vertical image; glasses centred with breathing space, entire frame and temples visible in opening and final hero; no letterbox bars"
+      "composition": "edge-to-edge vertical image; product centred with breathing space, entire product visible in opening and final hero; no letterbox bars"
     },
     "shot_plan": {
       "duration_seconds": 15,
@@ -496,7 +496,7 @@
     "review_status": "pending",
     "image_file": "assets/decathlon-tn-8738921/product.jpg",
     "video_file": null,
-    "page_revision": "ac674a309d97e50c64a6a089690e68d2c7af505e1889e59dfc045bfef1932b32"
+    "page_revision": "4b749e5e615019e34a7681ab4276a306-2354"
   },
   {
     "slug": "decathlon-tn-8940649",
