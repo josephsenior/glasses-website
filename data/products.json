@@ -595,6 +595,125 @@
     "page_revision": "de4184fa672abe7a347ed5301c451bd9e1bff02c38600c3b9b04a0af013deed6"
   },
   {
+    "slug": "aliexpress-1005008660233564",
+    "product": {
+      "source": "aliexpress",
+      "external_id": "1005008660233564",
+      "name": "SCVCN New Polarized Sunglasses for Men MTB Cycling Glasses Outdoor Sports Bike UV400 Goggles Women Road Bicycle Cycling Glasses",
+      "description": "SCVCN New Polarized Sunglasses for Men MTB Cycling Glasses Outdoor Sports Bike UV400 Goggles Women Road Bicycle Cycling Glasses",
+      "category": "sunglasses",
+      "attributes": {},
+      "price": 20.9,
+      "currency": "TND",
+      "image_url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb008eb53e92f463eb0a2c17c539df530h.png",
+      "supplier_url": "https://www.aliexpress.com/item/1005008660233564.html",
+      "status": "publish",
+      "images": [
+        {
+          "url": "https://ae-pic-a1.aliexpress-media.com/kf/Sb008eb53e92f463eb0a2c17c539df530h.png",
+          "role": "hero",
+          "origin": "supplier"
+        }
+      ],
+      "variants": [],
+      "facts": {
+        "brand": "",
+        "model": "",
+        "attributes": {},
+        "evidence_source": "supplier_listing",
+        "source_description": ""
+      },
+      "research": {
+        "relevance": 0.95,
+        "market_score": 86,
+        "ranking_score": 89,
+        "ai_suggestions": {
+          "name": "Lunettes de soleil de cyclisme SCVCN",
+          "features": "polarisation annoncée, protection UV400 déclarée",
+          "description": "Lunettes de soleil SCVCN pour cyclisme, présentées avec polarisation et protection UV400."
+        },
+        "market_score_kind": "heuristic"
+      },
+      "pricing": {
+        "currency": "TND",
+        "selling_price": 20.9,
+        "pricing_policy": "configured_markup_and_import_estimate",
+        "supplier_price": 10.95,
+        "conversion_date": "Mon, 05 Oct 2026 00:02:31 +0000",
+        "conversion_source": "api",
+        "supplier_currency": "TND"
+      },
+      "quality": {
+        "reasons": [],
+        "eligible": true,
+        "image_count": 1,
+        "stock_verified": false,
+        "geometry_source": "product_photos",
+        "description_available": false
+      },
+      "schema_version": 2,
+      "supplier_description": "SCVCN New Polarized Sunglasses for Men MTB Cycling Glasses Outdoor Sports Bike UV400 Goggles Women Road Bicycle Cycling Glasses",
+      "campaign_signature": "{\"version\":2,\"id\":\"1005008660233564\",\"source\":\"aliexpress\",\"name\":\"SCVCN New Polarized Sunglasses for Men MTB Cycling Glasses Outdoor Sports Bike UV400 Goggles Women Road Bicycle Cycling Glasses\",\"description\":\"SCVCN New Polarized Sunglasses for Men MTB Cycling Glasses Outdoor Sports Bike UV400 Goggles Women Road Bicycle Cycling Glasses\",\"category\":\"sunglasses\",\"attributes\":{},\"images\":[{\"url\":\"https://ae-pic-a1.aliexpress-media.com/kf/Sb008eb53e92f463eb0a2c17c539df530h.png\",\"role\":\"hero\"}],\"price\":20.9,\"currency\":\"TND\",\"generate_video\":false,\"publish_social\":false,\"platforms\":[\"facebook\",\"instagram\",\"tiktok\",\"youtube\"],\"creative_version\":\"product-editorial-v6-15\"}"
+    },
+    "campaign": {
+      "headline": "Lunettes SCVCN New Polarized Sunglasses",
+      "subheadline": "Découvrez le modèle SCVCN New Polarized Sunglasses for Men MTB Cycling Glasses Outdoor Sports Bike UV400 Goggles Women Road Bicycle Cycling Glasses à 20.9 TND.",
+      "cta": "Voir le produit",
+      "video_prompt": "Studio shot of sports cycling glasses displayed on a neutral background, showing frame and lens design.",
+      "ad_hook": "SCVCN à 20.9 TND",
+      "benefits": [
+        "Article référencé SCVCN New Polarized Sunglasses",
+        "Modèle adapté aux activités de vélo et cyclisme",
+        "Disponible au prix de 20.9 TND"
+      ]
+    },
+    "brand_style": {
+      "version": "product-studio-v3",
+      "background": "seamless warm light-grey cyclorama, subtle satin stone surface",
+      "lighting": "large diffused key at camera left 45 degrees, soft fill on right, narrow rim light separating the product; restrained reflections appropriate to the supplied materials, no blown highlights",
+      "camera": "three deliberate views of the same rigid product, slow movements and clean match cuts",
+      "music": "quiet minimal instrumental electronic groove, soft bass and restrained percussion, no vocals or speech",
+      "composition": "edge-to-edge vertical image; product centred with breathing space, entire product visible in opening and final hero; no letterbox bars"
+    },
+    "shot_plan": {
+      "duration_seconds": 15,
+      "format": "720x1280",
+      "sections": [
+        {
+          "start": 0,
+          "end": 3,
+          "role": "hook and hero"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "role": "material and detail"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "role": "verified benefit"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "role": "exact price"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "role": "verified product URL and CTA"
+        }
+      ],
+      "renderer": "Remotion with PixiJS where prepared assets exist",
+      "social_publishing": false
+    },
+    "review_status": "pending",
+    "image_file": "assets/aliexpress-1005008660233564/product.webp",
+    "video_file": null,
+    "page_revision": "a57e1c92dcf946cef5846dd0d4b4e4c0-2496"
+  },
+  {
     "slug": "decathlon-tn-8559273",
     "product": {
       "source": "decathlon_tn",
